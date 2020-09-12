@@ -2,7 +2,9 @@
 title: "Prueba Markdown"
 author: "Illak"
 date: "9/11/2020"
-output: github_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
